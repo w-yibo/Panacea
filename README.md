@@ -5,7 +5,7 @@
 
 
 
-Panacea is a post-fine-tuning stage safety alignment.
+The official implementation of Panacea. Panacea is a post-fine-tuning stage safety alignment.
 
 
 
