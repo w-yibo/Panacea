@@ -5,7 +5,7 @@
 
 
 
-The official implementation of [Panacea](https://arxiv.org/abs/2501.18100). Panacea is a post-fine-tuning stage safety alignment.
+The official implementation of [Panacea](https://arxiv.org/abs/2501.18100) [NeurIPS 2025]. Panacea is a post-fine-tuning stage safety alignment.
 
 
 
