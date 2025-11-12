@@ -1,11 +1,11 @@
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
 
-<h1 align="center">Mitigating Harmful Fine-tuning for Large Language Models via Post-fine-tuning Perturbation</h1>
+<h1 align="center">[NeurIPS 2025] Mitigating Harmful Fine-tuning for Large Language Models via Post-fine-tuning Perturbation</h1>
 
 
 
-The official implementation of [Panacea](https://arxiv.org/abs/2501.18100) [NeurIPS 2025]. Panacea is a post-fine-tuning stage safety alignment.
+The official implementation of [Panacea](https://arxiv.org/abs/2501.18100). Panacea is a post-fine-tuning stage safety alignment.
 
 
 
