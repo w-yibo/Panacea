@@ -75,3 +75,12 @@ cd ../finetune
 bash  booster_gsm8k.sh 0.1 # repnoise_gsm8k.sh vaccine_gsm8k.sh
 ```
 
+## Citation
+```bibtex
+@article{wang2025panacea,
+  title={Panacea: Mitigating harmful fine-tuning for large language models via post-fine-tuning perturbation},
+  author={Wang, Yibo and Huang, Tiansheng and Shen, Li and Yao, Huanjin and Luo, Haotian and Liu, Rui and Tan, Naiqiang and Huang, Jiaxing and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2501.18100},
+  year={2025}
+}
+```
