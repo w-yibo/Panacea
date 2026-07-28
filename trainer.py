@@ -477,7 +477,8 @@ class Panacea(BoosterAlignmentTrainer):
             # h(w + epsilon)
             with self.compute_loss_context_manager():
                 loss_h =  self.compute_loss(model, harmful_inputs)
-            loss_h = torch.clamp(loss_h, max=5)
+            loss_h_unclipped = loss_h
+            clip_loss_h = torch.clamp(loss_h_unclipped, max=5)
             if self.use_apex:
                 with amp.scale_loss(clip_loss_h, self.optimizer) as scaled_loss:
                     scaled_loss.backward()
